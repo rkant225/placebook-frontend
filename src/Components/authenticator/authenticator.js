@@ -113,6 +113,9 @@ const Authenticator = (props)=>{
     }
 
 
+    useEffect(()=>{
+        closeSessionTimeOutModalOpen(); // Close the modal automaticly
+    },[])
 
 
 
